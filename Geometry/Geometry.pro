@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2016-06-29T16:51:58
+# Project created by QtCreator 2016-06-28T10:13:25
 #
 #-------------------------------------------------
 
@@ -11,8 +11,11 @@ QT       -= gui
 TARGET = Geometry
 CONFIG   += console
 CONFIG   -= app_bundle
-
 TEMPLATE = app
 
-
+LIBS += -losgViewer
+LIBS += -losg
+LIBS += -losgDB
+LIBS += -losgUtil
+LIBS += -losgGA
 SOURCES += main.cpp
