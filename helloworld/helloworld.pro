@@ -17,4 +17,5 @@ LIBS += -losgViewer
 LIBS += -losg
 LIBS += -losgDB
 LIBS += -losgUtil
+LIBS += -losgGA
 SOURCES += main.cpp
