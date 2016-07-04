@@ -1,0 +1,4 @@
+#ifndef EXTENSIONDLG_H
+#define EXTENSIONDLG_H
+
+#endif // EXTENSIONDLG_H
